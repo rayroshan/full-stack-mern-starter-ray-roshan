@@ -1,0 +1,27 @@
+@import "@/styles/variables.scss";
+
+.toggle {
+  display: flex;
+  justify-content: left;
+  margin-bottom: -5px;
+  margin-top: 2px;
+
+  &__sm {
+    > div {
+      margin-bottom: 12px;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  &__label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 1px;
+
+    &__sm {
+      font-size: 14px;
+    }
+  }
+}

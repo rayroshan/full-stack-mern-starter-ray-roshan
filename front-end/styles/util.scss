@@ -1,0 +1,36 @@
+
+$margin-sizes: 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 100;
+
+@each $size in $margin-sizes {
+  .margin-top-#{$size} {
+    margin-top: #{$size}px;
+  }
+
+  .margin-bottom-#{$size} {
+    margin-bottom: #{$size}px;
+  }
+
+  .margin-right-#{$size} {
+    margin-right: #{$size}px;
+  }
+
+  .margin-left-#{$size} {
+    margin-left: #{$size}px;
+  }
+
+  .padding-top-#{$size} {
+    padding-top: #{$size}px;
+  }
+
+  .padding-bottom-#{$size} {
+    padding-bottom: #{$size}px;
+  }
+
+  .padding-right-#{$size} {
+    padding-right: #{$size}px;
+  }
+
+  .padding-left-#{$size} {
+    padding-left: #{$size}px;
+  }
+}

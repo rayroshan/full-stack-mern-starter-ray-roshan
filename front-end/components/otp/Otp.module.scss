@@ -1,0 +1,36 @@
+@import "@/styles/variables.scss";
+
+.otp {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  margin: 30px auto;
+
+  &__text {
+    opacity: 0;
+    position: absolute;
+  }
+
+  &__digits {
+    width: 45px;
+    height: 50px;
+    border: 1px solid $gainsboro;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $lightblack;
+    margin-top: 5px;
+
+    &__focused {
+      border-color: $gold;
+      background-color: #f8f8f8;
+    }
+
+    &:hover {
+      cursor: text;
+      border-color: $gold;
+      background-color: #f8f8f8;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import "../styles/variables.scss";
+
+$primary: $primary;
+
+.navbar-nav {
+  .dropdown.nav-item {
+    > a {
+      padding: 0;
+    }
+  }
+
+  .dropdown {
+    button {
+      a {
+        color: $lightblack;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  img {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.modal {
+  .modal-header {
+    border-bottom: 1px solid $gainsboro;
+    .close {
+      opacity: 1;
+
+      span {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-color: $darkyellow;
+        color: $white;
+        border-radius: 50%;
+        font-size: 17px;
+        padding-top: 2px;
+
+        &:hover {
+          background-color: $secondary;
+        }
+      }
+    }
+  }
+}
+
+@import "bootstrap";

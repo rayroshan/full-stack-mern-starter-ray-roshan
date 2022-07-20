@@ -1,0 +1,61 @@
+@import "@/styles/variables.scss";
+
+.text {
+  position: relative;
+
+  &__input {
+    border-radius: 6px;
+    border: 1px solid $gainsboro;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    width: 100%;
+
+    &:active,
+    &:focus {
+      border-color: $primary;
+    }
+  }
+
+  &__icon {
+    background-color: $white;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    color: $darkgray;
+    font-size: 15px;
+    padding: 10px 15px 8px 15px;
+    position: absolute;
+    right: 2px;
+    top: 3px;
+
+    &:hover {
+      cursor: pointer;
+      color: $secondary;
+    }
+
+    &__label {
+      top: 38px;
+      right: 2px;
+    }
+  }
+}
+
+.label {
+  color: $lightblack;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.note {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: -10px;
+
+  &__error {
+    color: $red;
+  }
+
+  &__message {
+    color: $darkgold;
+  }
+}

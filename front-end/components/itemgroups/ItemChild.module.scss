@@ -1,0 +1,10 @@
+@import "@/styles/variables.scss";
+
+.itemchild {
+  font-weight: 300;
+  margin-top: 5px;
+
+  &__bold {
+    font-weight: bold;
+  }
+}

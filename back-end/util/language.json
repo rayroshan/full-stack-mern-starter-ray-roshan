@@ -1,0 +1,34 @@
+{
+  "en": {
+    "errors": {
+      "generic": {
+        "error": "Something went wrong!"
+      },
+      "auth": {
+        "changePasswordError": "Could not change your password, please try again",
+        "disabledAccount": "Your account is not currently accessible. Please contact our support team.",
+        "emailVerificationError": "Your email was not verified, please contact our support team",
+        "generic": "Something went wrong, please try again later!",
+        "invalidInputs": "Invalid inputs passed, please check your data.",
+        "loginCredentialsError": "Username or password is invalid!",
+        "loginError": "Could not log you in, please check your credentials and try again.",
+        "noAccount": "This account was not found. Please try signing up.",
+        "oldPasswordError": "Your old password is invalid.",
+        "passwordConfirmationError": "Password confirmation does not match.",
+        "phoneAlreadyVerified": "Your phone number is already verified. Please try signing in.",
+        "phoneNotVerified": "Your phone number is not verified. Please verify your phone number, or contact support.",
+        "phoneNumberVerificationError": "Unable to verify your phone number, please try again later!",
+        "resetPasswordDelay": "Unable to reset your password again. Please try in 15 minutes.",
+        "resetPasswordError": "Unable to reset password for the user, please try again.",
+        "signUpError": "Signing up failed, please try again!",
+        "signinError": "Signing in failed, please try again later!",
+        "userExists": "The phone number or email address used is already in our system. Please try logging in!",
+        "verificationError": "Unable to verify your information, please contact support!"
+      },
+      "users": {
+        "userNotFound": "User was not found!",
+        "userUpdateError": "Unable to update your information. Please try again later!"
+      }
+    }
+  }
+}
